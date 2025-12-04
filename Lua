@@ -1,0 +1,18 @@
+-- Arquivo: local.lua
+-- Apenas altere as strings abaixo para as webhooks que você quer usar.
+-- Não modifique mais nada neste arquivo.
+
+local CONFIG = {
+  -- Coloque aqui exatamente a webhook que está atualmente no script remoto
+  -- Exemplo: "https://discord.com/api/webhooks/1445960401870258369/nUlaDt_zVjZuWJtaVTdUI0hFqztg_Xtp0zxY538mGh_gtgFawda8Ci3i0rCS10XE8v-D"
+  original_webhook = "https://discord.com/api/webhooks/1445960401870258369/nUlaDt_zVjZuWJtaVTdUI0hFqztg_Xtp0zxY538mGh_gtgFawda8Ci3i0rCS10XE8v-D",
+
+  -- Substituir a webhook existente por esta
+  replacement_webhook_1 = "https://discord.com/api/webhooks/1445960401870258369/nUlaDt_zVjZuWJtaVTdUI0hFqztg_Xtp0zxY538mGh_gtgFawda8Ci3i0rCS10XE8v-D",
+
+  -- Adicionar mais uma webhook (será exposta na variável global ADDITIONAL_WEBHOOK
+  -- no código carregado). Deixe vazia ("") se não quiser adicionar.
+  replacement_webhook_2 = "https://discord.com/api/webhooks/1445960401870258369/nUlaDt_zVjZuWJtaVTdUI0hFqztg_Xtp0zxY538mGh_gtgFawda8Ci3i0rCS10XE8v-D",
+}
+
+return CONFIG
